@@ -1,9 +1,9 @@
 import React from "react";
 
 import cn from "classnames";
-import styles from "./text-title.module.css";
+import styles from "./button-text.module.css";
 
-function TextTitle({
+function ButtonText({
   bold = false,
   blue = false,
   white = false,
@@ -13,7 +13,7 @@ function TextTitle({
   return (
     <h2
       className={cn(
-        styles.title,
+        styles.btnText,
         bold && styles.bold,
         blue && styles.btnBlue,
         white && styles.btnWhite,
@@ -25,4 +25,4 @@ function TextTitle({
   );
 }
 
-export default TextTitle;
+export default ButtonText;

@@ -1,11 +1,10 @@
 .navButton{
     flex: none;
-    align-self: center;
+    /* align-self: center; */
     position: relative;
     position: static;
+    margin: 0px 31px;
     width: 70px;
     height: 40px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: var(--c-text-white);
+    background-color: transparent;
 }

@@ -1,9 +1,5 @@
 .menu{
     display: flex;
-    flex-direction: row;
-    padding: 0px;
-    /* position: absolute; */
-    width: 407px;
-    height: 40px;
+    margin-left: 320px;
     margin-right: auto;
 }

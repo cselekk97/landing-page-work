@@ -1,0 +1,11 @@
+.prgText {
+  font-style: normal;
+  font-weight: 450;
+  font-size: 19px;
+  line-height: 30px;
+  /* or 158% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: var(--c-second-text);
+}

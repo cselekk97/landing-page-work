@@ -1,3 +1,9 @@
-.navigation{
-    display: flex;
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 80px;
+  margin-right: 90px;
+  order: 0;
+  /* margin: 0px 45px; */
 }

@@ -3,22 +3,22 @@ import NavButton from "./navigation-button";
 import cn from "classnames";
 
 import styles from "./menu.module.css";
-import TextTitle from "./text-title";
+import ButtonText from "./button-text.js";
 
 function Menu() {
   return (
       <div className={cn(styles.menu)}>
       <NavButton>
-        <TextTitle>Home</TextTitle>
+        <ButtonText>Home</ButtonText>
       </NavButton>
       <NavButton>
-        <TextTitle>Product</TextTitle>
+        <ButtonText>Product</ButtonText>
       </NavButton>
       <NavButton>
-        <TextTitle>About</TextTitle>
+        <ButtonText>About</ButtonText>
       </NavButton>
       <NavButton>
-        <TextTitle>Contact</TextTitle>
+        <ButtonText>Contact</ButtonText>
       </NavButton>
       </div>
   );
