@@ -1,0 +1,33 @@
+.titleText {
+  /* Title */
+
+  font-style: normal;
+  font-weight: 450;
+  font-size: 36px;
+  line-height: 42px;
+  /* or 117% */
+
+  text-align: center;
+  letter-spacing: 0.1px;
+  color: #20262A;
+}
+
+.hugeText {
+  font-size: 72px;
+}
+
+.medText {
+  font-size: 56px;
+}
+
+.blue {
+  color: var(--c-secondary-blue);
+}
+
+.yellow {
+  color: var(--c-secondary-yellow);
+}
+
+.boldText{
+    font-weight: bold;
+}

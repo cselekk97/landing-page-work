@@ -3,7 +3,7 @@ import React from "react";
 import cn from "classnames";
 import styles from "./paragraphe-text.module.css";
 
-function ButtonText({
+function ParagrapheText({
   children,
 }) {
   return (
@@ -17,4 +17,4 @@ function ButtonText({
   );
 }
 
-export default ButtonText;
+export default ParagrapheText;
