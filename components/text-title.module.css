@@ -1,0 +1,23 @@
+.title{
+    font-size: 18px;
+    margin: 0;
+    font-weight: 450;
+    line-height: 20px;
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.btnBlue{
+    color: var(--c-text-blue);
+}
+
+.btnWhite{
+    color: var(--c-text-white);
+}
+
+.btnBlack{
+    color: var(--c-text-black);
+}

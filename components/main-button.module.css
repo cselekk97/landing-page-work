@@ -1,0 +1,21 @@
+.mainBtn{
+    box-sizing: border-box;
+    border-radius: 85px;
+    padding-left: 36px;
+    padding-right: 36px;
+    height: 40px;
+}
+
+.backBlue{
+    background-color: var(--c-text-blue);
+}
+
+.backWhite{
+    background-color: transparent;
+}
+
+.border{
+    border: 1px solid #00B6F0;
+    box-sizing: border-box;
+    border-radius: 85px;
+}
