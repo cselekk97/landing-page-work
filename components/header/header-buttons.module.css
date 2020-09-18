@@ -2,8 +2,14 @@
     display: flex;
     flex-direction: row;
     order: 2;
+   width: 370px;
+   margin-left: auto;
+   margin-right: auto;
+   align-items: center;
+   margin-bottom: 50px;
 }
 
 .getStarted{
     margin-right: 30px;
+    height: 87px;
 }
