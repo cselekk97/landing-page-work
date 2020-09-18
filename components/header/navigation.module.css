@@ -2,9 +2,15 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
   margin-left: 80px;
   margin-right: 90px;
   height: 60px;
   order: 0;
   /* margin: 0px 45px; */
+}
+
+.screen{
+  margin-left: auto;
+  margin-right: auto;
 }

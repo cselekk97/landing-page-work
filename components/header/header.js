@@ -6,7 +6,8 @@ import Navigation from "./navigation"
 import HeaderTitle from './header-title'
 import HeaderButtons from './header-buttons'
 import Photo from "./photo"
-import Screen from "./screen.png"
+import Screen from "../../public/screen"
+
 
 
 function Header() {
@@ -15,7 +16,7 @@ function Header() {
       <Navigation></Navigation>
       <HeaderTitle></HeaderTitle>
       <HeaderButtons></HeaderButtons>
-      <Photo src ={Screen}  className={cn(styles.imgHeader)}></Photo>
+      <Screen className={cn(styles.screen)}></Screen>
     </div>
   );
 }
