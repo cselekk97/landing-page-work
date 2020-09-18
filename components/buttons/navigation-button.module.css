@@ -9,3 +9,8 @@
     background-color: transparent;
     cursor: pointer;
 }
+
+.navButton:active {
+	position:relative;
+	top:1px;
+}
