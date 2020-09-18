@@ -1,5 +1,6 @@
 import React from 'react'
-import Navigation from '../components/navigation'
+import HeaderTitle from '../components/header/header-title'
+import Navigation from '../components/header/navigation'
 
 
 export default {
@@ -8,3 +9,4 @@ export default {
 }
 
 export const navigation = () => <Navigation></Navigation>
+export const headerTitle = () => <HeaderTitle></HeaderTitle>

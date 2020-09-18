@@ -11,7 +11,7 @@ function ButtonText({
   children,
 }) {
   return (
-    <h2
+    <span
       className={cn(
         styles.btnText,
         bold && styles.bold,
@@ -21,7 +21,7 @@ function ButtonText({
       )}
     >
       {children}
-    </h2>
+    </span>
   );
 }
 

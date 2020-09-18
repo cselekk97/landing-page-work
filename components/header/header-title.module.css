@@ -1,0 +1,13 @@
+.headerTitle {
+  display: flex;
+  flex-direction: column;
+  order: 1;
+}
+
+.titleHuge {
+  margin-bottom: 50px;
+  line-height: 78px;
+  flex-direction: row;
+  
+}
+

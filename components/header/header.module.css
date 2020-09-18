@@ -1,0 +1,12 @@
+.header {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.22) 7.62%,
+    rgba(0, 225, 198, 0.06) 25.5%,
+    #ffffff 70.92%
+  );
+}
+
+.imgHeader{
+  order: 3;
+}

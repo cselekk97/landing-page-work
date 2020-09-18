@@ -1,0 +1,9 @@
+.headerButtons{
+    display: flex;
+    flex-direction: row;
+    order: 2;
+}
+
+.getStarted{
+    margin-right: 30px;
+}

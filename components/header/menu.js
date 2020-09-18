@@ -1,9 +1,9 @@
 import React from "react";
-import NavButton from "./navigation-button";
+import NavButton from "../buttons/navigation-button";
 import cn from "classnames";
 
 import styles from "./menu.module.css";
-import ButtonText from "./button-text.js";
+import ButtonText from "../texts/button-text.js";
 
 function Menu() {
   return (

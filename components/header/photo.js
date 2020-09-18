@@ -3,9 +3,9 @@ import cn from "classnames";
 
 import styles from "./photo.module.css";
 
-function Photo({src = "https://i.hizliresim.com/93iOoa.png",alt}) {
+function Photo({src = "https://i.hizliresim.com/93iOoa.png",alt,width,height,className}) {
   return (
-      <div className={cn(styles.photo)}>
+      <div className={cn(styles.photo,className)} style={{width:width , height:height}}>
       <img className={styles.img} src={src} alt={alt} />
       </div>
   );

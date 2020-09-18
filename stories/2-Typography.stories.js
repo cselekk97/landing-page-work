@@ -1,7 +1,7 @@
 import React from "react";
-import ButtonText from "../components/button-text";
-import ParagrapheText from "../components/paragraphe-text";
-import TitleText from "../components/title-text";
+import ButtonText from "../components/texts/button-text";
+import ParagrapheText from "../components/texts/paragraphe-text";
+import TitleText from "../components/texts/title-text";
 
 export default {
   title: "Typography",
