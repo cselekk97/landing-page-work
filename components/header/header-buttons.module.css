@@ -11,5 +11,11 @@
 
 .getStarted{
     margin-right: 30px;
-    height: 87px;
+    
+}
+
+@media (--t) {
+    .getStarted{
+        height: 87px;
+    }
 }

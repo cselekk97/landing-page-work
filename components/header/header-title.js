@@ -9,7 +9,7 @@ function HeaderTitle() {
   return (
     <div className={cn(styles.headerTitle)}>
       <TitleText className={cn(styles.titleHuge)} huge blue bold>
-        Lightning fast <br />prototyping
+        Lightning fast prototyping
       </TitleText>
       <ParagrapheText>
         Most calendars are designed for teams. Slate is <br/> designed for

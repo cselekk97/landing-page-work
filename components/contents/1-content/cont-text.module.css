@@ -1,0 +1,12 @@
+.contTexts{
+    order: 0;
+}
+
+
+.titleHuge {
+    margin: 45px 0px;
+    line-height: 78px;
+    flex-direction: row;
+    
+  }
+  
