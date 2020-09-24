@@ -1,12 +1,9 @@
 .contentButtons {
   display: flex;
   flex-direction: column;
-  width: 370px;
-  margin: 0 auto;
   margin-top: 70px;
   align-items: center;
   order: 1;
-
 
 }
 
@@ -25,6 +22,8 @@
 @media (--t) {
   .contentButtons {
     flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
   }
   .firstBtn{
     margin-right: 20px;
