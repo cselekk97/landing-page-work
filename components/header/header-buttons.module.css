@@ -10,8 +10,12 @@
 }
 
 .getStarted{
-    margin-right: 30px;
+    margin-right: auto;
     
+}
+
+.try{
+
 }
 
 @media (--t) {

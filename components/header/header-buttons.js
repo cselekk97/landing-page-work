@@ -12,7 +12,7 @@ function HeaderButtons() {
         <ButtonText white>Get Started</ButtonText>
       </MainButton>
       <MainButton backWhite className={cn(styles.try)}>
-        <ButtonText black>Try For Free</ButtonText>
+        <ButtonText black bold>Try For Free</ButtonText>
       </MainButton>
     </div>
   );
