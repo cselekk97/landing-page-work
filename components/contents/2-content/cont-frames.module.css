@@ -11,10 +11,8 @@
 }
 
 .screen1 {
-    margin-right: auto;
-    margin-left: auto;
     position: static;
-  order: 1;
+    order: 1;
 
   
 }
@@ -29,5 +27,8 @@
 @media (--t) {
     .contFrames{
         order:1;
+    }
+    .screen1{
+        margin-left: 90px;
     }
 }

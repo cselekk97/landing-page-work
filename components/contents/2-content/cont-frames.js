@@ -9,9 +9,9 @@ function ContFrames () {
     return(
         <div className={cn(styles.contFrames)}>
             <Screen1 className={cn(styles.screen1)}></Screen1>
-            <div className={cn(styles.vectorDiv)}>
+            {/* <div className={cn(styles.vectorDiv)}>
                <Vector3 className={cn(styles.vector3)}></Vector3> 
-            </div>
+            </div> */}
         </div>
     )
 }
