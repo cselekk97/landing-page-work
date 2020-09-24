@@ -1,0 +1,15 @@
+.scndContent{
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (--t) {
+    .scndContent{
+        flex-direction: row;
+    }
+}

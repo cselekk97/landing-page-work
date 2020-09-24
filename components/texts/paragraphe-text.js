@@ -4,12 +4,12 @@ import cn from "classnames";
 import styles from "./paragraphe-text.module.css";
 
 function ParagrapheText({
-  children,
+  children,className
 }) {
   return (
     <p
       className={cn(
-        styles.prgText
+        [styles.prgText,className]
       )}
     >
       {children}
