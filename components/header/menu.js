@@ -27,7 +27,7 @@ function Menu() {
           to="product"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-50}
           duration={750}
         >
           <ButtonText>Product</ButtonText>
@@ -39,7 +39,7 @@ function Menu() {
           to="about"
           spy={true}
           smooth={true}
-          offset={0}
+          offset={-90}
           duration={750}
         >
           <ButtonText>About</ButtonText>
