@@ -7,7 +7,7 @@ import ContTexts from './cont-texts'
 
 function FirstContent ({}) {
     return(
-        <div className={cn(styles.firstContent)}>
+        <div className={cn(styles.firstContent)} id="product">
             <ContTexts></ContTexts>
             <ContButtons></ContButtons>
         </div>

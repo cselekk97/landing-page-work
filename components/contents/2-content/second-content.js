@@ -7,7 +7,7 @@ import ContTexts from './cont-texts'
 
 function SecondContent () {
     return(
-        <div className={cn(styles.scndContent)}>
+        <div className={cn(styles.scndContent)} id="about">
             <ContTexts></ContTexts>
             <ContFrames></ContFrames>
         </div>
