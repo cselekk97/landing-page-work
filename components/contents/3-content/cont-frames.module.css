@@ -1,0 +1,20 @@
+.contFrames {
+    order: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  .screen1 {
+      position: static;
+      order: 1;
+  
+    
+  }
+  
+  
+  @media (--t) {
+      .screen1{
+          margin-right: 90px;
+      }
+  }

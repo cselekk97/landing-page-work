@@ -2,13 +2,13 @@ import React from 'react'
 import cn from 'classnames'
 
 import styles from './cont-frames.module.css'
-import Screen1 from '../../../public/screen1'
+import Screen2 from '../../../public/screen2'
 
 
 function ContFrames () {
     return(
         <div className={cn(styles.contFrames)}>
-            <Screen1 className={cn(styles.screen1)}></Screen1>
+            <Screen2 className={cn(styles.screen1)}></Screen2>
         </div>
     )
 }

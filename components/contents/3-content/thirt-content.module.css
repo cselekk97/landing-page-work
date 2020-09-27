@@ -1,0 +1,15 @@
+.thirtContent{
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (--t) {
+    .thirtContent{
+        flex-direction: row;
+    }
+}

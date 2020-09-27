@@ -1,0 +1,30 @@
+.contTexts{
+    order: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px auto;
+    
+}
+
+.paragrapheText{
+    margin: 40px 0px;
+    font-size: 24px;
+    text-align: start;
+}
+
+.resP{
+    margin: 40px 0px;
+    font-size: 24px;
+}
+
+.contButton{
+    margin-right: 0px;
+    padding: 0;
+}
+
+@media (--t) {
+    .contTexts{
+        align-items: flex-start;
+    }
+}
