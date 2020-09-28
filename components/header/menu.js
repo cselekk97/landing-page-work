@@ -17,6 +17,9 @@ function Menu() {
           smooth={true}
           offset={-70}
           duration={500}
+          onClick={() => {
+            document.location.reload(false)
+            }}
         >
           <ButtonText>Home</ButtonText>
         </Link>
@@ -29,6 +32,7 @@ function Menu() {
           smooth={true}
           offset={-50}
           duration={750}
+          
         >
           <ButtonText>Product</ButtonText>
         </Link>

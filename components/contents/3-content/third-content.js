@@ -1,16 +1,17 @@
+import React from 'react'
 import cn  from 'classnames'
 
-import styles from './thirt-content.module.css'
+import styles from './third-content.module.css'
 import ContFrames from './cont-frames'
 import ContTexts from './cont-texts'
 
-function ThirtContent () {
+function ThirdContent () {
     return(
-        <div className={cn(styles.thirtContent)}>
+        <div className={cn(styles.thirdContent)}>
             <ContTexts></ContTexts>
             <ContFrames></ContFrames>
         </div>
     )
 }
 
-export default ThirtContent
+export default ThirdContent

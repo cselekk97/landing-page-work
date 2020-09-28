@@ -1,4 +1,4 @@
-.thirtContent{
+.thirdContent{
     order: 3;
     display: flex;
     flex-direction: column;
@@ -9,7 +9,7 @@
 }
 
 @media (--t) {
-    .thirtContent{
+    .thirdContent{
         flex-direction: row;
     }
 }
