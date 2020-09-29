@@ -1,0 +1,25 @@
+.container{
+    order:4;
+    min-width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.progress{
+    color: var(--c-primary);
+}
+
+.texts{
+    margin:0 auto;
+    display: flex;
+    .scndText{
+        margin-left: auto;
+    }
+
+}
+
+@media (--t){
+    .container{
+        min-width: 757px;
+    }
+}
