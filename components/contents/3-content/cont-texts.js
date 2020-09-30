@@ -28,10 +28,8 @@ function ContTexts() {
       )}
       {size.width < CONST.TABLET_SIZE && (
         <ParagrapheText className={cn(styles.resP)}>
-          Most calendars are designed for teams.
-          <br /> Slate is designed for freelancers who
-          <br /> want a simple way to plan their
-          <br /> schedule.
+          Most calendars are designed <br/> for teams. Slate is designed <br/> for
+          freelancers who wan.
         </ParagrapheText>
       )}
 

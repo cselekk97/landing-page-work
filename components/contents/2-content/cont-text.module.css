@@ -5,6 +5,7 @@
     align-items: center;
     margin: 0px auto;
     margin-top: 1.5rem;
+    max-width: 459px;
 }
 
 .paragrapheText{
@@ -27,5 +28,11 @@
     .contTexts{
         order: 0;
         align-items: flex-start;
+    }
+}
+
+@media (max-width: 980px) {
+    .contTexts{
+        max-width: 385px;
     }
 }

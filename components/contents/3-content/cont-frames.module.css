@@ -18,3 +18,9 @@
           margin-right: 90px;
       }
   }
+
+  @media (max-width: 980px) {
+    .screen1{
+        max-width: 391px;
+    }
+}

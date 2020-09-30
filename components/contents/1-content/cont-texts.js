@@ -8,12 +8,12 @@ import ParagrapheText from "../../texts/paragraphe-text";
 function ContText() {
   return (
     <div className={cn(styles.contTexts)}>
-      <TitleText yellow bold>Just Type</TitleText>
+      <TitleText yellow bold className={cn(styles.titleYellow)}>Just Type</TitleText>
       <TitleText className={cn(styles.titleHuge)} med bold>
         Fastest way to navigate
       </TitleText>
       <ParagrapheText>
-        Most calendars are designed for teams.<br />
+        Most calendars are designed for teams.
         Slate is designed for freelancers.
       </ParagrapheText>
     </div>

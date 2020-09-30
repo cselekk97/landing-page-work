@@ -9,7 +9,7 @@ function ContButton() {
   return (
     <div className={cn(styles.contButton)}>
       <MainButton backBlue className={cn(styles.button)}>
-        <ButtonText white>Get Started For Free</ButtonText>
+        <ButtonText white bold>Get Started For Free</ButtonText>
       </MainButton>
     </div>
   );

@@ -14,7 +14,7 @@ function ContTexts() {
   const size = useWindowSize();
   return (
     <div className={cn(styles.contTexts)}>
-      {size.width > CONST.TABLET_SIZE && <TitleText>OpenType features</TitleText>}
+      {size.width > CONST.TABLET_SIZE && <TitleText className={styles.title}>OpenType features</TitleText>}
      {size.width > CONST.TABLET_SIZE && <ParagrapheText className={cn(styles.paragrapheText)}>
         Most calendars are designed for teams.
         <br /> Slate is designed for freelancers who

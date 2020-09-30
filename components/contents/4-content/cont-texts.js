@@ -12,7 +12,7 @@ function ContTexts() {
   return (
     <div className={cn(styles.contTexts)}>
       {size.width > CONST.TABLET_SIZE && (
-        <TitleText med>A rethink of how we work</TitleText>
+        <TitleText med bold>A rethink of how we work</TitleText>
       )}
       {size.width > CONST.TABLET_SIZE && (
         <ParagrapheText className={cn(styles.paragrapheText)}>
@@ -21,7 +21,7 @@ function ContTexts() {
         </ParagrapheText>
       )}
 
-      {size.width < CONST.TABLET_SIZE && <TitleText med>File Tasks</TitleText>}
+      {size.width < CONST.TABLET_SIZE && <TitleText med bold>File Tasks</TitleText>}
       {size.width < CONST.TABLET_SIZE && (
         <ParagrapheText className={cn(styles.resP)}>
           Being a freelancer is a rollercoaster <br />

@@ -1,12 +1,26 @@
-.contTexts{
-    order: 0;
+.contTexts {
+  order: 0;
+  max-width: 634px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
 .titleHuge {
-    margin: 45px 0px;
-    line-height: 78px;
-    flex-direction: row;
-    
+  margin: 45px 0px;
+  line-height: 4rem;
+  flex-direction: row;
+}
+
+@media (max-width: 980px) {
+  .titleHuge {
+    font-size: 3.2rem;
   }
-  
+  .titleYellow{
+    font-weight: 450;
+  }
+  .contTexts{
+    max-width: 343px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

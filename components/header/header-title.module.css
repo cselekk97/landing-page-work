@@ -8,13 +8,13 @@
 
 .titleHuge {
   margin-bottom: 3.125rem;
-  line-height: 4.875rem;
+  line-height: 4rem;
   flex-direction: row;
-  min-height: 160px;
+  min-height: 130px;
   max-width: 570px;
   margin-left: auto;
   margin-right: auto;
-  font-size: 3.5rem;
+  font-size: 3.2rem;
 }
 
 @media (--t){

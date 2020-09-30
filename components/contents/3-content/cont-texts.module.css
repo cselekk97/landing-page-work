@@ -29,3 +29,9 @@
         align-items: flex-start;
     }
 }
+
+@media (max-width: 980px) {
+    .contTexts{
+        max-width: 385px;
+    }
+}
