@@ -1,0 +1,17 @@
+.contTexts{
+    order: 0;
+}
+
+.paragrapheText{
+    order: 1;
+    margin-bottom: 62px;
+    margin-top: 25px;
+    padding: 10px;
+}
+
+.resP{
+    order: 1;
+    margin-bottom: 62px;
+    margin-top: 25px;
+    padding: 10px;
+}
