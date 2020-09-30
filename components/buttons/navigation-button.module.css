@@ -3,9 +3,9 @@
     /* align-self: center; */
     position: relative;
     position: static;
-    margin: 0px 31px;
+    margin: 0px 1.87rem;
     width: 70px;
-    height: 40px;
+    min-height: 40px;
     background-color: transparent;
     cursor: pointer;
 }

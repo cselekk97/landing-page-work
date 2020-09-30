@@ -3,6 +3,7 @@
     margin: 0;
     font-weight: 450;
     line-height: 1.25rem;
+    padding: 0.65rem;
     
 }
 .bold{
@@ -19,4 +20,11 @@
 
 .btnBlack{
     color: var(--c-text-black);
+}
+
+
+@media (--m) {
+    .btnText{
+        font-size: 1rem;
+    }
 }

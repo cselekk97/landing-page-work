@@ -8,6 +8,9 @@ module.exports = {
         },
         {
           customMedia: { '--d': '(min-width: 1270px)' }
+        },
+        {
+          customMedia: {'--m': '(min-width: 400px)'}
         }
       ]
     }
