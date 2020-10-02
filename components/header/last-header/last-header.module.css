@@ -1,0 +1,48 @@
+.navigation{
+    order: 6;
+}
+
+.navContainer{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex;
+    align-items: center;
+    height: 207px;
+    justify-content: space-around;
+
+    svg{
+        font-size: 2.6rem;
+        padding: 1.2rem;
+        cursor: pointer;
+    }
+}
+
+.svgContainer{
+    display: flex;
+    max-width: 210px;
+    flex-direction: row;
+}
+
+.lastMenu{
+    padding-right: 0;
+}
+
+@media (max-width: 980px){
+    .navContainer{
+        flex-direction: column;
+        height: 618px;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .lastMenu{
+        flex-direction: column;
+        height: 190px;
+        max-width: 75px;
+        margin-bottom: 80px;
+        margin-top: 52px;
+    }
+
+    
+}

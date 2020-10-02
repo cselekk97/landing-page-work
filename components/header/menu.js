@@ -6,9 +6,9 @@ import NavButton from "../buttons/navigation-button";
 import styles from "./menu.module.css";
 import ButtonText from "../texts/button-text.js";
 
-function Menu() {
+function Menu({className,...props}) {
   return (
-    <div className={cn(styles.menu)}>
+    <div className={cn(styles.menu,className,)} {...props}>
       <NavButton>
         <Link
           activeClass="active"

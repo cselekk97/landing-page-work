@@ -16,7 +16,7 @@ function Navigation() {
       <div className={cn(styles.navContainer)}>
         <Photo width={180} height={70} />
         {size.width > CONST.TABLET_SIZE && <Menu />}
-        <MainButton border backWhite>
+        <MainButton className={cn(styles.button)} border backWhite>
           <ButtonText blue bold>
             Login
           </ButtonText>
